@@ -27,3 +27,13 @@ x = ["apple", "banana"]
 y = ["apple", "banana"]
 
 print(x is not y)
+
+# Addition examples
+a = 10
+b = 20
+print(a + b)
+
+c = 7
+d = 8
+addition_result = c + d
+print(addition_result)
