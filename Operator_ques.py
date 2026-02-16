@@ -39,6 +39,7 @@ num = int(input("Enter a number: "))
 print("Square is:", num ** 2)
 print("Cube is:", num ** 3)
 
+
 #Swap the values of two variables (e.g., a and b) without using a third temporary variable, using arithmetic operators.
 
 a = int(input("enter a no :"))
@@ -50,3 +51,9 @@ a = a - b
 
 print("a =", a)
 print("b =", b)
+
+
+#Explain the difference between the true division (/) and floor division (//) operators with examples.
+
+print(10/3)
+print(10//3)
