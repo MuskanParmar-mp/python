@@ -23,3 +23,18 @@ print("division =",x/y)
 m  = 10
 n = 3
 print("reminder = ", m%n)
+
+
+#Calculate the area of a rectangle given its length and width as inputs.
+
+length = int(input("enter a len :"))
+width = int(input("enetr a width :"))
+ans = length * width
+print(ans)
+
+#Find the square and cube of a number using the exponentiation (**) operator.
+
+num = int(input("Enter a number: "))
+
+print("Square is:", num ** 2)
+print("Cube is:", num ** 3)
