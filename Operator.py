@@ -30,7 +30,7 @@ print(x is not y)
 
 # Addition examples
 a = 10
-b = 20
+b = 30
 print(a + b)
 
 c = 7
