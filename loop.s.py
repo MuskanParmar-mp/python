@@ -16,7 +16,7 @@ elif a == b:
   print("a and b are equal")  
 
 
-score = 75
+score = 79
 
 if score >= 90:
   print("Grade: A")
