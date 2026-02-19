@@ -29,7 +29,7 @@ y = ["apple", "banana"]
 print(x is not y)
 
 # Addition examples
-a = 10
+a = 11
 b = 30
 print(a + b)
 
