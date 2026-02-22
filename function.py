@@ -7,9 +7,20 @@ for x in fruits:
 
 
 
-adj = ["red", "big", "tasty"]
-fruits = ["apple", "banana", "cherry"]
+def get_greeting():
+  return "Hello from a function"
 
-for x in adj:
-  for y in fruits:
-    print(x, y)  
+message = get_greeting()
+print(message)  
+
+
+def changecase(func):
+  def myinner():
+    return func().upper()
+  return myinner
+
+@changecase
+def myfunction():
+  return "Hello Sally"
+
+print(myfunction())
