@@ -21,3 +21,9 @@ myvar2 = "John"
 2myvar = "John"
 my-var = "John"
 my var = "John"
+
+
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
