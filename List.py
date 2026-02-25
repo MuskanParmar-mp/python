@@ -18,7 +18,7 @@ MYVAR = "John"
 myvar2 = "John"
 
 
-2myvar = "John"
+myvar = "John"
 my-var = "John"
 my var = "John"
 
