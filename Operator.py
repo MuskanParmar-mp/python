@@ -33,7 +33,7 @@ a = 11
 b = 30
 print(a + b)
 
-c = 7
+c = 3
 d = 8
 addition_result = c + d
 print(addition_result)
