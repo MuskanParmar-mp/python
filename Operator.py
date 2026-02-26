@@ -37,3 +37,8 @@ c = 3
 d = 8
 addition_result = c + d
 print(addition_result)
+
+
+x = 5
+
+print(x < 5 or x > 10)
