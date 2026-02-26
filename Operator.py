@@ -46,3 +46,17 @@ print(x < 5 or x > 10)
 fruits = ["apple", "banana", "cherry"]
 
 print("banana" in fruits)
+
+
+
+
+x = 15
+y = 4
+
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+print(x % y)
+print(x ** y)
+print(x // y)
