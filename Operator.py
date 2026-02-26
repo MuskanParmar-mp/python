@@ -42,3 +42,7 @@ print(addition_result)
 x = 5
 
 print(x < 5 or x > 10)
+
+fruits = ["apple", "banana", "cherry"]
+
+print("banana" in fruits)
