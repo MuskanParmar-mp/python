@@ -46,4 +46,71 @@ for i in range(1, 11):
     print(num, "x", i, "=", num*i)
 
 
+def add(a, b):
+    return a + b
+
+print(add(5, 10))
+
+
+
+def factorial(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+    return fact
+
+print(factorial(5))
+
+
+fruits = ["apple", "banana", "mango"]
+print(fruits)
+fruits.append("orange")
+print(fruits)
+
+
+numbers = [10, 20, 30, 40]
+
+for n in numbers:
+    print(n)
+
+
+
+
+data = (10, 20, 30)
+print(data)
+
+
+
+nums = {1, 2, 3, 3, 4}
+print(nums)
+
+
+student = {
+    "name": "Muskan",
+    "age": 20,
+    "course": "Python"
+}
+
+print(student["name"])
+
+
+
+name = "Python"
+print(name[::-1])
+
+
+
+text = input("Enter text: ")
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+
+
+
+    
+
+
 
