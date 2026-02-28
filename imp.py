@@ -136,3 +136,59 @@ while num > 0:
     num //= 10
 
 print("Sum =", total)
+
+
+
+
+
+num = int(input("Enter number: "))
+count = 0
+
+for i in range(1, num + 1):
+    if num % i == 0:
+        count += 1
+
+if count == 2:
+    print("Prime Number")
+else:
+    print("Not Prime")
+
+
+
+
+
+
+n = int(input("Enter limit: "))
+a, b = 0, 1
+
+for i in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
+
+
+
+
+
+
+
+text = input("Enter string: ")
+count = 0
+
+for ch in text:
+    if ch in "aeiouAEIOU":
+        count += 1
+
+print("Vowels =", count)
+
+
+
+
+
+
+text = input("Enter string: ")
+print("Reverse =", text[::-1])
+
+
+
+
+
