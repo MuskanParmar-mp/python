@@ -43,3 +43,29 @@ elif b > c:
     print("b is greatest")
 else:
     print("c is greatest") 
+
+
+
+
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+
+if a > b and a > c:
+    print("a is greatest")
+elif b > c:
+    print("b is greatest")
+else:
+    print("c is greatest")
+
+
+
+
+
+year = int(input("Enter year: "))
+
+if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+    print("Leap Year")
+else:
+    print("Not Leap Year")
