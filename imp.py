@@ -69,3 +69,13 @@ if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
     print("Leap Year")
 else:
     print("Not Leap Year")
+
+
+
+
+
+
+num = int(input("Enter number: "))
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
