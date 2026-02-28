@@ -79,3 +79,26 @@ num = int(input("Enter number: "))
 
 for i in range(1, 11):
     print(num, "x", i, "=", num * i)
+
+
+
+
+
+num = int(input("Enter number: "))
+fact = 1
+
+for i in range(1, num + 1):
+    fact *= i
+
+print("Factorial =", fact)
+
+
+
+num = int(input("Enter number: "))
+rev = 0
+
+while num > 0:
+    rev = rev * 10 + num % 10
+    num //= 10
+
+print("Reverse =", rev)
