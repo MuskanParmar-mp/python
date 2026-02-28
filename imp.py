@@ -102,3 +102,37 @@ while num > 0:
     num //= 10
 
 print("Reverse =", rev)
+
+
+
+
+
+
+
+num = int(input("Enter number: "))
+temp = num
+rev = 0
+
+while num > 0:
+    rev = rev * 10 + num % 10
+    num //= 10
+
+if temp == rev:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+
+
+
+
+
+
+num = int(input("Enter number: "))
+total = 0
+
+while num > 0:
+    total += num % 10
+    num //= 10
+
+print("Sum =", total)
