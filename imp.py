@@ -279,3 +279,32 @@ for n in nums:
 
 print("Even:", even)
 print("Odd:", odd)        
+
+
+
+
+
+
+
+
+
+
+nums = [5, 20, 10, 40, 15]
+largest = nums[0]
+
+for n in nums:
+    if n > largest:
+        largest = n
+
+print("Largest =", largest)
+
+
+
+nums = [5, 20, 10, 40, 15]
+smallest = nums[0]
+
+for n in nums:
+    if n < smallest:
+        smallest = n
+
+print("Smallest =", smallest)
