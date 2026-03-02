@@ -209,3 +209,38 @@ elif choice == "4":
 else:
     print("Invalid Choice")
 
+
+
+
+
+
+
+
+
+
+
+
+num = int(input("Enter number: "))
+count = 0
+
+while num > 0:
+    count += 1
+    num //= 10
+
+print("Digits =", count)
+
+
+num = int(input("Enter number: "))
+temp = num
+total = 0
+digits = len(str(num))
+
+while temp > 0:
+    d = temp % 10
+    total += d ** digits
+    temp //= 10
+
+if total == num:
+    print("Armstrong Number")
+else:
+    print("Not Armstrong")
