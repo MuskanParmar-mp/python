@@ -300,7 +300,7 @@ print("Largest =", largest)
 
 
 
-nums = [5, 20, 10, 40, 15]
+nums = [5, 20, 19, 40, 15]
 smallest = nums[0]
 
 for n in nums:
