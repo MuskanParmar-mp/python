@@ -51,5 +51,5 @@ thisdict = {
 print(type(thisdict))
 
 
-thisdict = dict(name = "John", age = 36, country = "Norway")
+thisdict = dict(name = "John", age = 19, country = "Norway")
 print(thisdict)
