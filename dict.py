@@ -49,3 +49,7 @@ thisdict = {
   "year": 1964
 }
 print(type(thisdict))
+
+
+thisdict = dict(name = "John", age = 36, country = "Norway")
+print(thisdict)
