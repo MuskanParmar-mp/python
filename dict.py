@@ -36,7 +36,7 @@ print(thisdict)
 
 
 thisdict = {
-  "brand": "Ford",
+  "brand": "Foggg",
   "electric": False,
   "year": 1999,
   "colors": ["red", "white", "blue"]
