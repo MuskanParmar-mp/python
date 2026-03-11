@@ -15,7 +15,7 @@ print(type(x))
 
 
 
-x = frozenset(("apple", "banana", "cherry"))
+x = frozenset(("aple", "banana", "cherry"))
 print(type(x))
 
 
