@@ -20,7 +20,7 @@ print(type(x))
 
 
 
-x = memoryview(bytes(5))
+x = memoryview(bytes(3))
 print(type(x))
 
 
