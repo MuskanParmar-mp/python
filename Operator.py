@@ -85,3 +85,11 @@ print(a * b)   # Multiplication = 50
 print(a / b)   # Division = 2.0
 print(a % b)   # Modulus = 0
 print(a ** b)  # Power = 100000
+
+
+
+a = 10
+
+print(a > 5 and a < 20)  # True
+print(a > 15 or a < 20)  # True
+print(not(a > 5))        # False
