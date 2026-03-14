@@ -93,3 +93,12 @@ a = 10
 print(a > 5 and a < 20)  # True
 print(a > 15 or a < 20)  # True
 print(not(a > 5))        # False
+
+
+
+
+
+list1 = [1, 2, 3, 4]
+
+print(2 in list1)      # True
+print(5 not in list1)  # True
