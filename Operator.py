@@ -73,3 +73,15 @@ print(x > y)
 print(x < y)
 print(x >= y)
 print(x <= y)
+
+
+
+a = 10
+b = 5
+
+print(a + b)   # Addition = 15
+print(a - b)   # Subtraction = 5
+print(a * b)   # Multiplication = 50
+print(a / b)   # Division = 2.0
+print(a % b)   # Modulus = 0
+print(a ** b)  # Power = 100000
