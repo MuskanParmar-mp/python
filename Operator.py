@@ -98,7 +98,7 @@ print(not(a > 5))        # False
 
 
 
-list1 = [1, 2, 3, 4, 5]
+list1 = [1, 2, 3, 4, 5, 6 , 7 , 8 ]
 
 print(2 in list1)      # True
 print(5 not in list1)  # True
