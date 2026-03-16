@@ -9,7 +9,7 @@ if number > 0:
 
 
 a = 33
-b = 33
+b = 31
 if b > a:
   print("b is greater than a")
 elif a == b:
