@@ -27,7 +27,7 @@ thisdict = {
   "brand": "Ford",
   "model": "Mustang",
   "year": 1994,
-  "year": 2020
+  "year": 2026
 }
 print(thisdict)
 
