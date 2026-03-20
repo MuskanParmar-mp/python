@@ -39,7 +39,7 @@ thisdict = {
   "brand": "Foggg",
   "electric": False,
   "year": 1999,
-  "colors": ["red", "gray", "blue"]
+  "colors": ["red", "gray"]
 }
 
 
