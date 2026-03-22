@@ -5,5 +5,5 @@ set = {"apple", "banana", "cherry", False, True, 0}
 
 print(set)
 
-myset = {"apple", "bananaa", "cherry", "orange", "Graps"}
+myset = {"apple", "bananaa", "cherry", "orange", }
 print(type(myset))
