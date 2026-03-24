@@ -1,4 +1,4 @@
-thisset = {"apple", "banana", "cherry"}
+thisset = {"apple", "banana", "cherry" , "mango"}
 print(thisset)
 
 set = {"apple", "banana", "cherry", False, True, 0}
