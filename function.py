@@ -71,3 +71,19 @@ def myfunc(n):
 mytripler = myfunc(3)
 
 print(mytripler(11))
+
+
+
+
+
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def display(self):
+        print(f"Name: {self.name}, Marks: {self.marks}")
+
+s1 = Student("Muskan", 90)
+s1.display()
