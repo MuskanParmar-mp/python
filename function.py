@@ -40,6 +40,20 @@ print(x(5, 6, 2))
 
 
 
+def logger(func):
+    def wrapper():
+        print("Function is running...")
+        func()
+        print("Function finished")
+    return wrapper
+
+@logger
+def say_hello():
+    print("Hello Muskan")
+
+say_hello()
+
+
 
 
 def myfunc(n):
