@@ -58,3 +58,10 @@ print(a*b)
 c= 2+3j
 print(type(c))
 
+
+
+
+#operators
+a=10
+b=5
+print(a**b)
